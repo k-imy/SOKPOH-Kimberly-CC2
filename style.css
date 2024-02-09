@@ -1,0 +1,113 @@
+/* exercice 1 */
+
+/* h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+} */
+
+.exo1_h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+
+article > h2 {
+    color: green;
+}
+
+article p {
+    color: blue;
+    font-style: italic;
+}
+
+ body  h1{
+    text-shadow: 10px red ;
+    
+   
+} 
+
+body img {
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+} 
+
+
+/* exercice2 */
+
+.div1 {
+    width: 280px;
+    height: 280px;
+    background-color: blue;  
+}
+
+.div1:hover{
+    transform: translateX(300px);
+    transform: rotate(35deg);
+}
+
+
+/* exercice3 */
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    padding-top: 150px;
+}
+
+header {
+    background-color: gray;
+    width: 100%;
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+}
+header> h1 {
+    color: white;
+    
+}
+ nav{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ input{
+    align-self: center;
+     justify-self: flex-start;
+    
+ }
+
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ li {
+    display: inline;
+ }
+
+ footer{
+    height: 500px;
+ }
+
+ /* exercice4 */
+ .div2{
+    width: 70%;
+    height: 400px;
+    border-color: black;
+ }
+ section > img{
+    width: 30px;
+    height: 30px;
+ }
+ 
+
+
+
+
